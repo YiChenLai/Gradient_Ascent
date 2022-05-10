@@ -19,7 +19,7 @@
 
 &emsp;&emsp;梯度上升法的「一次搜尋」的流程圖 :
 
-![image]()
+![image](https://github.com/YiChenLai/Gradient_Ascent/blob/master/image/Flowchart/flowchart_1.png)
 
 &emsp;&emsp;因此，要尋找全域最佳解時，就有必要進行「多次搜尋」。運氣好的話可能 1 ~ 100 次，但「單次搜尋」所計算的時間成本很高，單靠運氣來優化是不可靠的，更何況運氣不好到需要上千次。
 
