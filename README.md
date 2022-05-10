@@ -23,7 +23,7 @@
 
 &emsp;&emsp;因此，要尋找全域最佳解時，就有必要進行「多次搜尋」。運氣好的話可能 1 ~ 100 次，但「單次搜尋」所計算的時間成本很高，單靠運氣來優化是不可靠的，更何況運氣不好到需要上千次。
 
-![image]()
+![image](https://github.com/YiChenLai/Gradient_Ascent/blob/master/image/Flowchart/flowchart_1_1.png)
 
 ---
 ## 3. 設計思路
@@ -31,5 +31,5 @@
 
 &emsp;&emsp;先將 Model 進行等分分區 (Zoon)，並在每個 Zoon 個別取 x 個樣本 Seed 進行評價並加總，作為各個 Zoon 的評價分數。之後，再從最高分的 Zoon 隨機取 Seed 進行梯度上升的搜尋。分區評價的梯度上升法流程圖 :
 
-![image]()
+![image](https://github.com/YiChenLai/Gradient_Ascent/blob/master/image/Flowchart/flowchart_2.png)
 
